@@ -1,19 +1,19 @@
 package dto;
 
-import com.devsuperior.dslist.entities.Game;
+import com.devsuperior.dslist.com.devsuperior.dslist.entities.Game;
 
-public class GameminDTO {
+public class GamingDTO {
     private long id;
     private String title;
     private int year;
     private String imgUrl;
     private String shortDescription;
 
-    public GameminDTO (){
+    public GamingDTO(){
 
     }
 
-    public GameminDTO(Game entity) {
+    public GamingDTO(Game entity) {
         id = entity.getId();
         title = entity.getTitle();
         year = entity.getYear();
